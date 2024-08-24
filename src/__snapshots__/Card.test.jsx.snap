@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Card"
+  >
+    <h4
+      class="Card-title"
+    >
+      caption-test
+    </h4>
+    <img
+      alt="caption-test"
+      class="Card-image"
+      src="http://image-test"
+    />
+    <small
+      class="Card-small"
+    >
+      Image 1 of 3.
+    </small>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`should match snapshot with different props 1`] = `
+<DocumentFragment>
+  <div
+    class="Card"
+  >
+    <h4
+      class="Card-title"
+    >
+      caption-test-2
+    </h4>
+    <img
+      alt="caption-test-2"
+      class="Card-image"
+      src="http://image-test-2"
+    />
+    <small
+      class="Card-small"
+    >
+      Image 1 of 5.
+    </small>
+  </div>
+</DocumentFragment>
+`;
